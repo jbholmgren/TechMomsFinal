@@ -300,3 +300,52 @@ h1 {
 #date {
 	font-family: 'Roboto Slab', serif;
 }
+
+#ordernow {
+	display: flex;
+	align-content: center;
+	
+}
+
+.rolls {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cookies {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.rolls div {
+	margin: 30px;
+}
+
+.cookies div {
+	margin: 30px;
+}
+
+#orderbody {
+	margin: 100px;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 80px;
+	background-color: white;
+}
+
+.message {
+	height: 100px;
+}
+
+#amount {
+	font-family: 'Roboto Slab', serif;
+}
+
+iframe {
+	margin: 100px;
+}
+
+.center {
+	text-align: center;
+}
