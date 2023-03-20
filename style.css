@@ -86,24 +86,28 @@ header {
 }
 
 #contactform {
-	margin: 50px;
-	padding: 10px;
 	background-color: white;
-	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 50px;
+	height: 400px;
+	overflow: scroll;
 }
 
 #contactformtext {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 }
 
 #contactform img {
 	float: left;
-	margin: 25px;
+	width: 35%;
 	border-radius: 50%;
-	width: 40%;
+	margin-right: 50px;
 }
-
 .container {
 	display: flex;
 	align-items: center;
@@ -190,7 +194,7 @@ h1 {
 	padding-right: 60px;
 	margin: 100px;
 	height: 450px;
-	overflow: auto;
+	overflow: scroll;
 }
 
 #order img {
