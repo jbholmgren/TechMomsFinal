@@ -1,3 +1,5 @@
+/*HOME*/
+
 body {
 	font-family: 'Roboto Slab', serif;
 	background-color: #F2F2F2;
@@ -64,6 +66,8 @@ header {
 
 /*background-color: #c0a478;*/
 
+/*ABOUT*/
+
 #aboutpage {
 	background-color: white;
 	margin-top: 50px;
@@ -71,7 +75,9 @@ header {
 	margin-left: 200px;
 	margin-right: 200px;
 	padding: 50px;
-	height: 350px;
+	height: 400px;
+	line-height: 2;
+	overflow:
 }
 
 #aboutpage img {
@@ -79,6 +85,7 @@ header {
 	width: 30%;
 	border-radius: 50%;
 	margin-left: 50px;
+	margin-bottom: 50px;
 }
 
 #orderform {
@@ -94,6 +101,7 @@ header {
 	padding: 50px;
 	height: 400px;
 	overflow: scroll;
+	line-height: 2;
 }
 
 #contactformtext {
@@ -154,9 +162,13 @@ footer {
 	padding-top: 12px;
 	padding-left: 60px;
 	padding-right: 60px;
-	margin: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
 	height: 450px;
 	overflow: auto;
+	line-height: 2;
 }
 
 #about img {
@@ -175,9 +187,13 @@ h1 {
 	padding-top: 12px;
 	padding-left: 60px;
 	padding-right: 60px;
-	margin: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
 	height: 450px;
 	overflow: auto;
+	line-height: 2;
 }
 
 #contact img {
@@ -192,9 +208,13 @@ h1 {
 	padding-top: 12px;
 	padding-left: 60px;
 	padding-right: 60px;
-	margin: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
 	height: 450px;
 	overflow: scroll;
+	line-height: 2;
 }
 
 #order img {
@@ -202,6 +222,7 @@ h1 {
 	width: 25%;
 	border-radius: 50%;
 	margin-right: 30px;
+	margin-bottom: 30px;
 }
 
 .button {
@@ -346,10 +367,39 @@ h1 {
 	font-family: 'Roboto Slab', serif;
 }
 
-iframe {
-	margin: 100px;
-}
 
 .center {
 	text-align: center;
+}
+
+.catering {
+	background-color: white;
+	padding-top: 12px;
+	padding-left: 60px;
+	padding-right: 60px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 200px;
+	margin-right: 200px;
+	height: 450px;
+	overflow: auto;
+	line-height: 2;
+}
+
+.catering img {
+	float: right;
+	width: 25%;
+	border-radius: 50%;
+	margin-left: 30px;
+}
+
+.container h1 {
+	margin-right: 250px;
+	margin-left: 250px;
+}
+
+.orderhere {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
 }
