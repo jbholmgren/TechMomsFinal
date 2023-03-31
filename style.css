@@ -41,7 +41,6 @@ header {
 
 #home {
 	width: 100%;
-	text-align: center;
 	background-color: #c0a478;
 	margin-top: 75px;
 	color: #FDF8EE;
@@ -54,13 +53,14 @@ header {
 	text-align: center;
 	letter-spacing: 7px;
 	font-weight: lighter;
-	padding-left: 40px;
+	padding-left: 60px;
+	margin-left: 100px;
+	margin-right: 0px;
 }
 
 #home img {
 	padding-top: 50px;
-	padding-left: 0px;
-	align-items: left;
+	text-align: left;
 }
 
 #contact,
